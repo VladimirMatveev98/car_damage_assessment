@@ -1,2 +1,17 @@
+# Неотсортированные
 telebot
 toml
+tqdm
+
+# База данных
+alembic
+asyncpg
+psycopg #psycopg2?
+psycopg-binary
+sqlalchemy
+
+# FastAPI
+fastapi
+pydantic
+pydantic-settings
+uvicorn

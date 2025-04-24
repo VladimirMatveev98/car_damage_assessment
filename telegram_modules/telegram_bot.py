@@ -54,8 +54,6 @@ def func(message):
     elif message.text == "Оценка повреждений по фото":
         last_command_code = 2
         bot.send_message(message.chat.id, text="Отправьте фото повреждений: ")
-        print(f"{last_command_code=}")
-        print(f"{message.text=}")
 
     elif message.text == "Template-1":
         last_command_code = 3
@@ -72,6 +70,7 @@ def func(message):
         button2 = types.KeyboardButton("Оценка повреждений по фото")
         markup.add(button1, button2)
         bot.send_message(message.chat.id, text="Вы вернулись в главное меню", reply_markup=markup)
+
     elif last_command_code == 1:
         last_command_code = 0
         print("ЗАПИСЬ В БД")

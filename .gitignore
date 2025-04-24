@@ -98,4 +98,5 @@ venv.bak/
 .idea/
 
 # Other and secret data
+TODO.txt
 config.toml
